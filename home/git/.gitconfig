@@ -1,0 +1,7 @@
+[alias]
+	lga = log --graph --oneline --all --decorate
+[user]
+	email = nico@nicorikken.eu
+	name = Nico Rikken
+[push]
+	default = simple
