@@ -1,0 +1,22 @@
+= Dotfiles
+
+This project keeps my dotfiles at hand and synchronized.
+It is mainly inspired by the https://github.com/gotbletu/dotfiles[dotfiles repo by gotbletu].
+
+.Requirements
+* https://www.gnu.org/software/stow/[GNU Stow] which creates the needed symlinks from the repo checkout into the system.
+
+.Installing into user home
+[source, shell]
+----
+cd home
+stow -v -t ~ git
+stow -v -t ~ bashrc
+----
+
+.Installing into root
+[source, shell]
+----
+cd home
+sudo stow -v -t / lynx
+----
